@@ -1,0 +1,50 @@
+{
+    "token":"",
+
+    "options": {
+        "separator": "・",
+        "adminRole": "CARGO DE ADMIN",
+        "mencionarAdmin": true,
+
+        "logsChannel": "ID DO CANAL DE LOGS",
+        "categoria": "ID DA CATEGORIA"
+    },
+
+    "selectOptions": [
+        {
+            "label": "Denuncia",
+            "description": "Use esta opção para denunciar alguem!",
+            "emoji": "🚫",
+            "value": "denuncia"
+        },
+        {
+            "label": "Suporte",
+            "description": "Use esta opção caso precise de ajuda em alguma coisa!",
+            "emoji": "📝",
+            "value": "suporte"
+        },
+        {
+            "label": "Outros",
+            "description": "Use esta opção para outros tipos de ajuda!",
+            "emoji": "📡",
+            "value": "outros"
+        }
+    ],
+    
+    "ticketDescOptions": {
+        "denuncia": {
+            "description": "{user} a categoria escolhida foi **🚫 Denúncia**!\n\n> Por favor, espere um moderador ou administrador atender seu ticket!\n> ♻️ Enquanto isso você pode nos contar mais sobre sua denúncia!",
+            "color": "#781a1a"
+        },
+
+        "suporte": {
+            "description": "{user} a categoria escolhida foi **📝 Suporte**!\n\n> Por favor, espere um moderador ou administrador atender seu ticket!\n> 📝 Para o atendimento ser mais rapido, esclareça sua dúvida!",
+            "color": "#faf89d"
+        },
+
+        "outros": {
+            "description": "{user} a categoria escolhida foi **📡 Outros**!\n\n> Por favor, espere um moderador ou administrador atender seu ticket!\n> 📡 Para agilizar o atendimento, nos conte sobre o que você precisa!",
+            "color": "#77a9d7"
+        }
+    }
+}
